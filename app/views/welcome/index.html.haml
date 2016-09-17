@@ -1,1 +1,18 @@
-%h1 Hello, world!
+#banner
+	.banner_content
+		%h1 Cabinet
+		%p You life is work. Organized, always.
+		%button= link_to "Enter", new_user_registration_path
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Organize
+				%p Kickstarter helps artists, musicians, filmmakers, designers, and other creators find the resources and support they need to make their ideas a reality. To date, tens of thousands of creative projects — big and small — have come to life with the support of the Kickstarter community. 
+
+#bottom_cta
+	.wrapper
+		%h2 Go Ahead!
+		%br
+		%button= link_to "Join Now", new_user_registration_path
